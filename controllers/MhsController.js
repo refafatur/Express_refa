@@ -20,7 +20,7 @@ exports.getMhsById = (req, res) => {
       console.error('Kesalahan saat mengakses database:', err);
     } else {
       res.json(rows[0]);
-      console.log('Berhasil mengambil data mahasiswa dengan id:', id);
+      console.log('Berhasil ambil data mahasiswa dengan id:', id);
     }
   });
 };
